@@ -1,4 +1,4 @@
-#Fontion de statistiques d'une table mysql
+# Fontion de statistiques d'une table mysql
 
 ```
 Comptage du nombre d'éléments de chaque colonne
