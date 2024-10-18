@@ -1,5 +1,5 @@
 Fontion de statistiques d'une table mysql
-
+```
 Comptage du nombre d'éléments de chaque colonne
 
 Exemple à partir de la variable $mysql contenant une table 
@@ -66,4 +66,5 @@ fct_column @result -> $result : affiche en colonne du tableau @result
 | 1 Martin  | 1 Philippe  | 3 Paris     |           | 1 Clio |         |
 | 1 Olivier | 1 Valérie   |             |           |        |         |
 +-----------+-------------+-------------+-----------+--------+---------+
+```
 
