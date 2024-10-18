@@ -6,16 +6,16 @@ Exemple à partir de la variable $mysql contenant une table
 
 fct_sql_stat.pl "$mysql" 2-
 mysql :
-+-----------+---------+-----------+-------------+---------+--------+---------+
-| numero    | nom     | prenom    | departement | marque  | modele | couleur |
-+-----------+---------+-----------+-------------+---------+--------+---------+
-| AB 123 CD | Henri   | Philippe  | Paris       | Renault | Clio   | Blanc   |
-| AB 456 CD | Martin  | Michel    | Paris       | Citroen | C4     | Blanc   |
-| AB 789 CD | Dupont  | Eric      | Paris       | Peugeot | 308    | Noir    |
-| EF 123 GH | Olivier | Catherine | Eure        | Peugeot | 308    | Blanc   |
-| EF 456 GH | Lucas   | Eric      | Oise        | Citroen | C3     | Noir    |
-| EF 789 GH | Henri   | Valérie   | Nord        | Citroen | C4     | Rouge   |
-+-----------+---------+-----------+-------------+---------+--------+---------+
+ +-----------+---------+-----------+-------------+---------+--------+---------+
+ | numero    | nom     | prenom    | departement | marque  | modele | couleur |
+ +-----------+---------+-----------+-------------+---------+--------+---------+
+ | AB 123 CD | Henri   | Philippe  | Paris       | Renault | Clio   | Blanc   |
+ | AB 456 CD | Martin  | Michel    | Paris       | Citroen | C4     | Blanc   |
+ | AB 789 CD | Dupont  | Eric      | Paris       | Peugeot | 308    | Noir    |
+ | EF 123 GH | Olivier | Catherine | Eure        | Peugeot | 308    | Blanc   |
+ | EF 456 GH | Lucas   | Eric      | Oise        | Citroen | C3     | Noir    |
+ | EF 789 GH | Henri   | Valérie   | Nord        | Citroen | C4     | Rouge   |
+ +-----------+---------+-----------+-------------+---------+--------+---------+
 filter : 2-
 
 fct_sql_stat tableau @result : création d'un tableau contenant le résultat de chaque colonne
