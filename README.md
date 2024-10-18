@@ -3,7 +3,7 @@ Fontion de statistiques d'une table mysql
 Comptage du nombre d'éléments de chaque colonne
 
 Exemple à partir de la variable $mysql contenant une table 
-
+ 
 fct_sql_stat.pl "$mysql" 2-
 mysql :
  +-----------+---------+-----------+-------------+---------+--------+---------+
