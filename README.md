@@ -7,6 +7,14 @@ fct_sql_stat.pl -h : aide
 fct_sql_stat.pl -e : exemple
 fct_sql_stat.pl "$mysql" 2-
 
+utilisation du module fct_sql_stat.pm
+options :
+- filter    : filtre de colonne
+- ref_stat  : tableau initial des valeurs pour trier
+- init_stat : pour initialiser sur le tableau
+- ref_lg    : tableau des longueurs des colonnes
+- init_lg   : pour calculer puis retourner les longueurs
+
 filter : 2-
 mysql  : 
 +-----------+---------+-----------+-------------+---------+--------+---------+
