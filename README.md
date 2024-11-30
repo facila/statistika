@@ -9,9 +9,9 @@ fct_sql_stat.pl "$mysql" 2-
 
 utilisation du module fct_sql_stat.pm
 options :
-- filter    : filtre de colonne
+- filter    : filtre des colonnes à prendre en compte
 - ref_stat  : tableau initial des valeurs pour trier
-- init_stat : pour initialiser sur le tableau
+- init_stat : pour initialiser les valeurs à partir du tableau ref_stat
 - ref_lg    : tableau des longueurs des colonnes
 - init_lg   : pour calculer puis retourner les longueurs
 
