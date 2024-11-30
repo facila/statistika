@@ -36,9 +36,10 @@ Lucas     1
 Martin    1
 Dupont    1
 
-prenom    4/5
+prenom    5/6
 Eric        2
 Catherine   1
+NULL        1
 Philippe    1
 Valérie     1
 
@@ -66,12 +67,12 @@ Rouge     1
 
 fct_column @result -> $result : affichage en colonne du tableau @result 
 +-------------+---------------+-----------------+-------------+------------+-------------+
-| nom     5/6 | prenom    4/5 | departement 4/6 | marque  3/6 | modele 4/6 | couleur 3/6 |
+| nom     5/6 | prenom    5/6 | departement 4/6 | marque  3/6 | modele 4/6 | couleur 3/6 |
 +-------------+---------------+-----------------+-------------+------------+-------------+
 | Henri     2 | Eric        2 | Paris         3 | Citroen   3 | C4       2 | Blanc     3 |
 | Olivier   1 | Catherine   1 | Eure          1 | Peugeot   2 | 308      2 | Noir      2 |
-| Lucas     1 | Philippe    1 | Oise          1 | Renault   1 | Clio     1 | Rouge     1 |
-| Martin    1 | Valérie     1 | Nord          1 |             | C3       1 |             |
-| Dupont    1 |               |                 |             |            |             |
+| Lucas     1 | NULL        1 | Oise          1 | Renault   1 | Clio     1 | Rouge     1 |
+| Martin    1 | Philippe    1 | Nord          1 |             | C3       1 |             |
+| Dupont    1 | Valérie     1 |                 |             |            |             |
 +-------------+---------------+-----------------+-------------+------------+-------------+
 
